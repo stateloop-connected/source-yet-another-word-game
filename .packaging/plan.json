@@ -1,0 +1,77 @@
+{
+  "build_script": "tsc -b && vite build",
+  "gameplay_or_asset_changes": false,
+  "google_fonts_selfhost": {
+    "families": [
+      {
+        "family": "Be Vietnam Pro",
+        "source": "ofl/bevietnampro/OFL.txt",
+        "spdx": "OFL-1.1"
+      },
+      {
+        "family": "Lilita One",
+        "source": "ofl/lilitaone/OFL.txt",
+        "spdx": "OFL-1.1"
+      },
+      {
+        "family": "Material Symbols Outlined",
+        "source": "google/material-design-icons@10ecc14790612ca8fd164e3f4ffe9c16fc50d5b7:LICENSE",
+        "spdx": "Apache-2.0"
+      }
+    ],
+    "font_files": 12,
+    "fonts_dir": ".packaging/google-fonts",
+    "google_fonts_commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+    "helper": "google-fonts-selfhost.py",
+    "stylesheets": [
+      {
+        "local": ".packaging/google-fonts/073cf17320cd1c19.css",
+        "sha256": "cf34575c2fb22734a874165cf79ad0e297d06b540fd7e2c33e4b10b1d2edf82b",
+        "url": "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Lilita+One&display=swap"
+      },
+      {
+        "local": ".packaging/google-fonts/de105f3305c8e7c2.css",
+        "sha256": "8e0bfd77c3f31d5c42478fe28265aa5ae60c0fa83208ce31bb8c1054d8019a3f",
+        "url": "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700;800&family=Lilita+One&display=swap"
+      },
+      {
+        "local": ".packaging/google-fonts/85b88de6c1273900.css",
+        "sha256": "496aa91183a9b58cf6c9eb43d494fc4450a7138cf6e70b1c4cc7721d741ddebf",
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      }
+    ],
+    "total_font_bytes": 1292972,
+    "version": 1
+  },
+  "lockfile": "package-lock.json",
+  "mode": "native_source_build",
+  "repository": "ishanmanjrekar/yet-another-word-game",
+  "schema_version": 1,
+  "source_changes": [
+    ".packaging/plan.json",
+    ".packaging/google-fonts/073cf17320cd1c19.css",
+    ".packaging/google-fonts/85b88de6c1273900.css",
+    ".packaging/google-fonts/NOTICE.md",
+    ".packaging/google-fonts/de105f3305c8e7c2.css",
+    ".packaging/google-fonts/files/15cdfa1fd883cec29715.woff2",
+    ".packaging/google-fonts/files/192831e68d5da19beeea.woff2",
+    ".packaging/google-fonts/files/5ac1467de8165628da4c.woff2",
+    ".packaging/google-fonts/files/7932b61e1016c9af09b2.woff2",
+    ".packaging/google-fonts/files/7fecf4f094b40b5dcc49.woff2",
+    ".packaging/google-fonts/files/9a81d46fe497bb942341.woff2",
+    ".packaging/google-fonts/files/c2ea176dcfee866db539.woff2",
+    ".packaging/google-fonts/files/cc213dd9a52f29568177.woff2",
+    ".packaging/google-fonts/files/ccf0be0636649040f3d4.woff2",
+    ".packaging/google-fonts/files/d0a722dfe679d853f5d2.woff2",
+    ".packaging/google-fonts/files/fcce74a2c50797d0eef8.woff2",
+    ".packaging/google-fonts/files/fdf205b1dfafe65188b0.woff2",
+    ".packaging/google-fonts/licenses/Be-Vietnam-Pro-OFL-1.1.txt",
+    ".packaging/google-fonts/licenses/Lilita-One-OFL-1.1.txt",
+    ".packaging/google-fonts/licenses/Material-Symbols-Outlined-Apache-2.0.txt",
+    "index.html",
+    "src/index.css"
+  ],
+  "status": "ready",
+  "upstream_code_executed_locally": false,
+  "upstream_sha": "25911f3b5fb2c95be93c3a446c1b68755a04fe5a"
+}
